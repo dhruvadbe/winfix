@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <toc>
+      <path>../../toc/Default.toc</path>
+      <name>Default</name>
+    </toc>
+    <masterpage>
+      <path>../../contents/assets/masterpages/pdf.htt</path>
+    </masterpage>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includereftopics type="boolean">true</includereftopics>
+  </content>
+  <starterPage>Default.pdf</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+  </sitemap>
+  <name>PDF</name>
+  <type>pdf</type>
+  <title>Blank Project</title>
+  <pdf>
+    <multiHeaders type="boolean">false</multiHeaders>
+    <margin type="array">
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+    </margin>
+    <multiheaders type="boolean">false</multiheaders>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <mergePdfs type="boolean">true</mergePdfs>
+    <embeddFonts type="boolean">true</embeddFonts>
+  </pdf>
+  <outputPath>C:/Users/sumahesh/Documents/My RoboHelp Projects/outputs/print/PDF</outputPath>
+  <patchHomepage type="boolean">true</patchHomepage>
+</preset>
